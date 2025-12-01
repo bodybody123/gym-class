@@ -32,18 +32,6 @@ struct dataKehadiran
     dataKelas* kelas;
 };
 
-void insertDataKelas(dataKelas** head, const string& id, const string& nama, const string& jadwal, int kapasitas, int biaya, const string& coach) {
-    dataKelas* newKelas = new dataKelas();
-    newKelas->id_Kelas = id;
-    newKelas->nama_kelas = nama;
-    newKelas->jadwal_kelas = jadwal;
-    newKelas->kapasitas_kelas = kapasitas;
-    newKelas->biaya_kelas = biaya;
-    newKelas->nama_coach = coach;
-    newKelas->next = *head;
-    *head = newKelas;
-}
-
 void insertDataPeserta(dataPeserta** head, const string& id, const string& nama) {
     dataPeserta* newPeserta = new dataPeserta();
     newPeserta->id_Peserta = id;
@@ -63,25 +51,6 @@ void insertDataKehadiran(dataKehadiran** head, const string& tanggal, const stri
     newKehadiran->kelas = kelas;
     newKehadiran->next = *head;
     *head = newKehadiran;
-}
-
-void deleteDataKelas(dataKelas** head, const string& id) {
-    dataKelas* temp = *head;
-    dataKelas* prev = nullptr;
-
-    while (temp != nullptr && temp->id_Kelas != id) {
-        prev = temp;
-        temp = temp->next;
-    }
-
-    if (temp == nullptr) return; // Not found
-
-    if (prev == nullptr) {
-        *head = temp->next; // Delete head
-    } else {
-        prev->next = temp->next; // Bypass the node to be deleted
-    }
-    delete temp;
 }
 
 void deleteDataPeserta(dataPeserta** head, const string& id) {

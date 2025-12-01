@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// ? Child
 struct Attendee {
     string id;
     string name;

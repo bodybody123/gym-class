@@ -14,6 +14,7 @@ enum class PresenceStatus {
     Excused
 };
 
+// ? Relation
 struct Presence{
     Date registration_date;
     PresenceStatus status;
