@@ -6,10 +6,13 @@
 using namespace std;
 
 // ? Child
-struct Attendee {
+struct AttendeeData {
     string id;
     string name;
-    string schedule;
+};
+
+struct Attendee {
+    AttendeeData data;
     Attendee* next;
 };
 

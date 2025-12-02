@@ -1,7 +1,7 @@
 #include "AttendeeList.hpp"
 
 void insertAttendee(Attendee* head, Attendee *attendee) {
-    attendee->id = "random_id";
+    attendee->data.id = "random_id";
     attendee->next = head;
     head = attendee;
 }
@@ -10,7 +10,7 @@ void deleteAttendee(Attendee* head, const string& id) {
     Attendee* temp = head;
     Attendee* prev = nullptr;
 
-    while (temp != nullptr && temp->id != id) {
+    while (temp != nullptr && temp->data.id != id) {
         prev = temp;
         temp = temp->next;
     }

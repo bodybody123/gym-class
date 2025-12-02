@@ -1,5 +1,5 @@
-#ifndef PRESENCE_HPP
-#define PRESENCE_HPP
+#ifndef REGISTRATION_HPP
+#define REGISTRATION_HPP
 
 #include <string>
 #include "Date.hpp"
@@ -8,17 +8,10 @@
 
 using namespace std;
 
-enum class PresenceStatus {
-    Present,
-    Absent,
-    Excused
-};
-
 // ? Relation
-struct Presence{
+struct Registration {
     Date registration_date;
-    PresenceStatus status;
-    Presence* next;
+    Registration* next;
     Attendee* attendee;
     ClassSession* class_session;
 };

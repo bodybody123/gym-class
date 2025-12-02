@@ -1,15 +1,15 @@
-#include "PresenceList.hpp"
+#include "RegistrationList.hpp"
 
-void insertPresence(Presence *head, Presence *presence)
+void insertRegistration(Registration* head, Registration *registration)
 {
-    presence->next = head;
-    head = presence;
+    registration->next = head;
+    head = registration;
 }
 
-void deletePresence(Presence *head, const string &id)
+void deleteRegistration(Registration* head, const string& id)
 {
-    Presence *temp = head;
-    Presence *prev = nullptr;
+    Registration *temp = head;
+    Registration *prev = nullptr;
 
     while (temp != nullptr && temp->attendee->id != id)
     {

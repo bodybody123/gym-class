@@ -1,5 +1,4 @@
 #include "ClassSessionList.hpp"
-#include "../models/Presence.hpp"
 
 void insertClassSessionData(ClassSession* head, ClassSession *classSession) {
     classSession->id = "random_id";

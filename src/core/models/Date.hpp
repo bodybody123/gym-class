@@ -6,6 +6,10 @@ struct Date
     int day;
     int month;
     int year;
+
+    int hour;
+    int minute;
+    int second;
 };
 
 void printDate(Date date);
