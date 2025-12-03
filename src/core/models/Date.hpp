@@ -1,6 +1,8 @@
 #ifndef DATE_HPP
 #define DATE_HPP
 
+#include <string>
+
 struct Date
 {
     int day;
@@ -12,7 +14,9 @@ struct Date
     int second;
 };
 
-void printDate(Date date);
+std::string getDate(Date date);
+std::string getDateTime(Date date);
+std::string printDate(Date date);
 void setDate(Date& date, int day, int month, int year);
 
 #endif

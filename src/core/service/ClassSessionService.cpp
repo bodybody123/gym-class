@@ -2,6 +2,7 @@
 #include "../models/Registration.hpp"
 #include "../Lists/RegistrationList.hpp"
 #include "ClassSessionService.hpp"
+#include "../models/Date.hpp"
  
 void attendingClassSession(
     ClassSession *classSession, 
@@ -24,25 +25,35 @@ void getAllClassAndAttendees(
     ClassSession *currentClassSession = classSessionHead;
     // ClassSessionAttendees *currentClassSessionAttendees = &classSessionAttendeesHead;
 
+    if (classSessionHead == nullptr) {
+        cout << "No class sessions available." << endl;
+        return;
+    }
+
     while (currentClassSession != nullptr)
     {   
+        cout << "Class Session: " << currentClassSession->name << " (ID: " << currentClassSession->id << ")" << endl;
         // currentClassSessionAttendees->class_session = currentClassSession;
         // currentClassSessionAttendees->attendee_count = 0;
 
         Registration *currentRegistration = registrationHead;
 
-        if (currentRegistration->class_session->id != currentClassSession->id) {   
-            // currentClassSessionAttendees->attendees = currentRegistration->attendee;
-        }
+        // if (currentRegistration->class_session->id != currentClassSession->id) {   
+        //     currentClassSessionAttendees->attendees = currentRegistration->attendee;
+        // }
 
+        cout << "Attendees:" << endl;
         while (currentRegistration != nullptr)
         {
             if (currentRegistration->class_session == currentClassSession)
             {
+                cout << "- " << currentRegistration->attendee->data.name << " (Registration date: " 
+                << getDate(currentRegistration->registration_date) << ")" << endl;
+                
                 // currentClassSessionAttendees->attendee_count += 1;
                 
-                // currentClassSessionAttendees->attendees = currentRegistration->attendee->next;
             }
+            // currentClassSessionAttendees->attendees = currentRegistration->attendee->next;
             currentRegistration = currentRegistration->next;
         }
 
@@ -51,4 +62,23 @@ void getAllClassAndAttendees(
     }
     
     // return classSessionAttendeesHead;
+}
+
+int countClassSessionAttendees(
+    ClassSession *classSession, 
+    Registration *registrationHead
+) {
+    int count = 0;
+    Registration *currentRegistration = registrationHead;
+
+    while (currentRegistration != nullptr)
+    {
+        if (currentRegistration->class_session == classSession)
+        {
+            count += 1;
+        }
+        currentRegistration = currentRegistration->next;
+    }
+
+    return count;
 }

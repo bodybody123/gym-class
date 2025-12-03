@@ -7,4 +7,4 @@ created by
  - Jibril Dharmawan (Programmer)
 
 # Architecture information
-to check information on how to navigate the project follow this [Link](https://chatgpt.com/c/6927e692-9444-8323-bf92-99a369758a81)
+to check information on how to navigate the project follow this [Link](https://chatgpt.com/share/69302981-67c8-8012-9a12-cd98a3514560)

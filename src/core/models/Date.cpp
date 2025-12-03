@@ -1,14 +1,30 @@
 #include <iostream>
+#include <string>
 #include "Date.hpp"
 
-void printDate(Date date)
+std::string getDate(Date date)
 {
-    std::cout << "%02d-%02d-%04d", date.day, date.month, date.year;
+    return std::to_string(date.day) + "-" + 
+    std::to_string(date.month) + "-" + 
+    std::to_string(date.year);
 }
 
-void setDate(Date &date, int day, int month, int year)
+std::string getDateTime(Date date)
+{
+    return std::to_string(date.day) + "-" + 
+    std::to_string(date.month) + "-" + 
+    std::to_string(date.year) + " " + 
+    std::to_string(date.hour) + ":" + 
+    std::to_string(date.minute) + ":" + 
+    std::to_string(date.second);
+}
+
+void setDate(Date &date, int day, int month, int year, int hour, int minute, int second)
 {
     date.day = day;
     date.month = month;
     date.year = year;
+    date.hour = hour;
+    date.minute = minute;
+    date.second = second;
 }
