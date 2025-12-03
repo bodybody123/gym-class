@@ -64,21 +64,34 @@ void getAllClassAndAttendees(
     // return classSessionAttendeesHead;
 }
 
-int countClassSessionAttendees(
-    ClassSession *classSession, 
+void countClassSessionAttendees(
+    ClassSession *classSessionHead, 
     Registration *registrationHead
 ) {
-    int count = 0;
-    Registration *currentRegistration = registrationHead;
+    ClassSession *currentClassSession = classSessionHead;
 
-    while (currentRegistration != nullptr)
-    {
-        if (currentRegistration->class_session == classSession)
-        {
-            count += 1;
-        }
-        currentRegistration = currentRegistration->next;
+    if (classSessionHead == nullptr) {
+        cout << "No class sessions available." << endl;
+        return;
     }
 
-    return count;
+    while (currentClassSession != nullptr)
+    {   
+        int count = 0;
+        Registration *currentRegistration = registrationHead;
+
+        while (currentRegistration != nullptr)
+        {
+            if (currentRegistration->class_session == currentClassSession)
+            {
+                count++;
+            }
+            currentRegistration = currentRegistration->next;
+        }
+
+        cout << "Class Session: " << currentClassSession->name 
+             << " has " << count << " attendees registered." << endl;
+
+        currentClassSession = currentClassSession->next;
+    }
 }
