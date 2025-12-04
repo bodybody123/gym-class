@@ -37,4 +37,8 @@ vector<Attendee*> findElementChild(Registration* registrationHead, const string&
  */
 bool hasParentChildRelation(Registration* registrationHead, const string& attendeeId, const string& classSessionId);
 
+// Simple helper: return only the parent (ClassSession) id for an attendee
+// Returns empty string if not found
+string findParentId(Registration* registrationHead, const string& attendeeId);
+
 #endif

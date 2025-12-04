@@ -29,54 +29,18 @@ ClassSession* findElementParent(Registration* registrationHead, const string& at
     return NULL; // Parent not found
 }
 
-// ===== Find element Child (Attendee) =====
-/**
- * Find all children (Attendees) of a given parent (ClassSession)
- * Returns all attendees registered in a specific class
- * @param registrationHead - pointer to registration linked list
- * @param classSessionId - ID of the class session (parent)
- * @return vector of Attendee pointers registered in this class
- */
-vector<Attendee*> findElementChild(Registration* registrationHead, const string& classSessionId) {
-    vector<Attendee*> children;
+// Simple helper: return only the ClassSession id for a given attendee id
+// Does not modify other files (header left unchanged)
+string findParentId(Registration* registrationHead, const string& attendeeId) {
     Registration* current = registrationHead;
-    
-    // Traverse registration list to find all attendees in this class
     while (current != NULL) {
-        if (current->class_session != NULL && current->class_session->id == classSessionId) {
-            // Found a registration in this class, add attendee to list
-            if (current->attendee != NULL) {
-                children.push_back(current->attendee);
+        if (current->attendee != NULL && current->attendee->data.id == attendeeId) {
+            if (current->class_session != NULL) {
+                return current->class_session->id;
             }
+            return string();
         }
         current = current->next;
     }
-    
-    return children;
-}
-
-// ===== Check if Parent and Child have relationship =====
-/**
- * Check if a specific parent (ClassSession) and child (Attendee) have a relationship
- * Verifies if an attendee is registered in a specific class
- * @param registrationHead - pointer to registration linked list
- * @param attendeeId - ID of the attendee (child)
- * @param classSessionId - ID of the class session (parent)
- * @return true if relationship exists, false otherwise
- */
-bool hasParentChildRelation(Registration* registrationHead, const string& attendeeId, const string& classSessionId) {
-    Registration* current = registrationHead;
-    
-    // Traverse registration list to find matching parent-child relationship
-    while (current != NULL) {
-        if (current->attendee != NULL && current->class_session != NULL) {
-            // Check if both IDs match
-            if (current->attendee->data.id == attendeeId && current->class_session->id == classSessionId) {
-                return true; // Relationship found
-            }
-        }
-        current = current->next;
-    }
-    
-    return false; // No relationship found
+    return string();
 }
