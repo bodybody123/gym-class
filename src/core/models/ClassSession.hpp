@@ -3,6 +3,7 @@
 
 #include <string>
 #include "Date.hpp"
+#include "Attendee.hpp"
 
 using namespace std;
 
