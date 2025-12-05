@@ -1,4 +1,5 @@
 #include "RegistrationList.hpp"
+#include <string>
 
 void insertRegistration(Registration* head, Registration *registration)
 {
@@ -11,7 +12,7 @@ void deleteRegistration(Registration* head, const string& id)
     Registration *temp = head;
     Registration *prev = nullptr;
 
-    while (temp != nullptr && temp->attendee->id != id)
+    while (temp != nullptr && temp->attendee->data.id != id)
     {
         prev = temp;
         temp = temp->next;

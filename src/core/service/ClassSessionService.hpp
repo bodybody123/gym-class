@@ -2,10 +2,11 @@
 #define CLASSSESSIONSERVICE_HPP
 
 #include "../models/ClassSession.hpp"
-#include "../Lists/RegistrationList.hpp"
-void getAllClassAndAttendees(
-    ClassSession *classSessionHead, 
-    Registration *registrationHead
-) ;
+#include "../models/Registration.hpp"
+
+void getAllClassAndAttendees(ClassSession *classSessionHead, Registration *registrationHead);
+void getClassSessionDetailById(ClassSession *classSessionHead, Registration *registrationHead, const string& id);
+void countClassSessionAttendees(ClassSession *classSessionHead, Registration *registrationHead);
+
 
 #endif

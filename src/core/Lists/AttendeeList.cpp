@@ -1,4 +1,7 @@
+#include <iostream>
 #include "AttendeeList.hpp"
+
+using namespace std;
 
 void insertAttendee(Attendee* head, Attendee *attendee) {
     attendee->data.id = "random_id";
@@ -24,4 +27,34 @@ void deleteAttendee(Attendee* head, const string& id) {
     }
 
     delete temp;
+}
+
+void printAttendeeDetails(Attendee *attendee)
+{
+    if (attendee != nullptr) {
+        cout << "Attendee ID: " << attendee->data.id << ", Name: " << attendee->data.name << endl;
+    } else {
+        cout << "Attendee not found." << endl;
+    }
+}
+
+void getAllAttendees(Attendee *head)
+{
+    Attendee* current = head;
+    while (current != nullptr) {
+        printAttendeeDetails(current);
+        current = current->next;
+    }
+}
+
+Attendee *getAttendeeById(Attendee *head, string id)
+{
+    Attendee* current = head;
+    while (current != nullptr) {
+        if (current->data.id == id) {
+            return current;
+        }
+        current = current->next;
+    }
+    return nullptr;
 }

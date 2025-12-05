@@ -1,4 +1,5 @@
 #include <iostream>
+#include "../Lists/ClassSessionList.hpp"
 #include "../models/Registration.hpp"
 #include "../Lists/RegistrationList.hpp"
 #include "ClassSessionService.hpp"
@@ -93,5 +94,31 @@ void countClassSessionAttendees(
              << " has " << count << " attendees registered." << endl;
 
         currentClassSession = currentClassSession->next;
+    }
+}
+
+void getClassSessionDetailById(
+    ClassSession *classSessionHead, 
+    Registration *registrationHead, 
+    const string& id
+) {
+    ClassSession *classSession = getClassSessionById(classSessionHead, id);
+
+    if (classSession == nullptr)
+    {
+        return;
+    }
+
+    printClassSessionDetails(classSession);   
+
+    Registration *currentRegistration = registrationHead;
+    while (currentRegistration != nullptr)
+    {
+        if (currentRegistration->class_session == classSession)
+        {
+            cout << "- Attendee: " << currentRegistration->attendee->data.name 
+                 << " (Registration date: " << getDate(currentRegistration->registration_date) << ")" << endl;
+        }
+        currentRegistration = currentRegistration->next;
     }
 }
