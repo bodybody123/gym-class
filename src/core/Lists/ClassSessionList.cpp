@@ -30,10 +30,17 @@ void deleteClassData(ClassSession* head, const string& id) {
 
 void printClassSessionDetails(ClassSession *classSession)
 {
-    cout << "Class Session ID: " << classSession->id 
-         << ", Name: " << classSession->name 
-         << ", Schedule: " << getDate(classSession->schedule)
-         << ", Coach: " << classSession->coach << endl;
+    if (classSession != nullptr) {
+        cout << "Class ID: " << classSession->id << endl;
+        cout << "Class Name: " << classSession->name << endl;
+        cout << "Schedule: " << getDateTime(classSession->schedule) << endl;
+        cout << "Capacity: " << classSession->capacity << endl;
+        cout << "Fee: Rp." << classSession->fee << endl;
+        cout << "Attendee Count: " << classSession->attendee_count << endl;
+        cout << "Coach: " << classSession->coach << endl;
+    } else {
+        cout << "Class session not found." << endl;
+    }
 }
 
 void getAllClassSessions(ClassSession *head)
