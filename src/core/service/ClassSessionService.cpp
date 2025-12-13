@@ -153,3 +153,47 @@ void getClassSessionDetailById(
         currentRegistration = currentRegistration->next;
     }
 }
+
+void ClassSessionService::showAttendeesFromClass(
+    Registration* registrationHead,
+    const std::string& classSessionId
+) {
+    if (classSessionId.empty()) {
+        std::cout << "Class session ID cannot be empty.\n";
+        return;
+    }
+
+    if (registrationHead == nullptr) {
+        std::cout << "No registration data available.\n";
+        return;
+    }
+
+    std::cout << "\n=== Attendees of Class Session "
+              << classSessionId << " ===\n";
+
+    int count = 0;
+    Registration* current = registrationHead;
+
+    while (current != nullptr) {
+        if (current->classSession != nullptr &&
+            current->attendee != nullptr &&
+            current->classSession->id == classSessionId) {
+
+            std::cout << ++count << ". "
+                      << current->attendee->data.name
+                      << " (ID: "
+                      << current->attendee->data.id
+                      << ")\n";
+        }
+
+        current = current->next;
+    }
+
+    if (count == 0) {
+        std::cout << "No attendees registered for this class.\n";
+    } else {
+        std::cout << "Total attendees: " << count << "\n";
+    }
+
+    std::cout << "====================================\n";
+}
