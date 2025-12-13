@@ -73,3 +73,12 @@ void updateClassSessionData(ClassSession *head, const string &id, ClassSession u
     classSession->attendee_count = updatedData.attendee_count;
     classSession->coach = updatedData.coach;
 }
+
+void showAllClassSessions(ClassSession* head) {
+    ClassSession* current = head;
+    while (current != nullptr) {
+        std::cout << current->id << " - "
+                  << current->name << "\n";
+        current = current->next;
+    }
+}
