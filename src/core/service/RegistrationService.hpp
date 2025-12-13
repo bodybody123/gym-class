@@ -9,17 +9,12 @@ bool hasRelation(
     Registration* registrationHead, 
     const string& attendeeId, 
     const string& classSessionId
-) {
-    Registration* cur = registrationHead;
-    while (cur != NULL) {
-        if (cur->attendee != NULL && cur->class_session != NULL) {
-            if (cur->attendee->data.id == attendeeId && cur->class_session->id == classSessionId) {
-                return true;
-            }
-        }
-        cur = cur->next;
-    }
-    return false;
-}
+);
+
+void deregisterAttendee(
+    Registration** registrationHead, 
+    Attendee* attendee, 
+    ClassSession* classSession
+);
 
 #endif

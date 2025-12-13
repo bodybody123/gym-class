@@ -97,6 +97,37 @@ void countClassSessionAttendees(
     }
 }
 
+int countClassSessionsWithNoAttendees(ClassSession *classSessionHead, Registration *registrationHead)
+{
+    ClassSession* currentClassSession = classSessionHead;
+    int noAttendeeCount = 0;
+
+    while (currentClassSession != nullptr)
+    {
+        bool hasAttendees = false;
+        Registration* currentRegistration = registrationHead;
+
+        while (currentRegistration != nullptr)
+        {
+            if (currentRegistration->class_session == currentClassSession)
+            {
+                hasAttendees = true;
+                break;
+            }
+            currentRegistration = currentRegistration->next;
+        }
+
+        if (!hasAttendees)
+        {
+            noAttendeeCount++;
+        }
+
+        currentClassSession = currentClassSession->next;
+    }
+
+    return noAttendeeCount;
+}
+
 void getClassSessionDetailById(
     ClassSession *classSessionHead, 
     Registration *registrationHead, 

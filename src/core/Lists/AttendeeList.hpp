@@ -8,5 +8,6 @@ void deleteAttendee(Attendee* head, const string& id);
 void printAttendeeDetails(Attendee *attendee);
 void getAllAttendees(Attendee* head);
 Attendee* getAttendeeById(Attendee* head, string id);
+void updateAttendee(Attendee* head, Attendee* attendee);
 
 #endif

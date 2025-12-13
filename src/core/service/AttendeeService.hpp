@@ -7,5 +7,6 @@
 void registerAttendee(Attendee *attendeeHead, Attendee *newAttendee);
 void getAllAttendeesAndClassSessions(Attendee *attendeeHead, Registration *registrationHead);
 void countAttendeesClassSessions(Attendee *attendeeHead, Registration *registrationHead);
+int countAttendeesWithNoClassSessions(Attendee *attendeeHead, Registration *registrationHead);
 
 #endif

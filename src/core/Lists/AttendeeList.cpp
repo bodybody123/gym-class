@@ -58,3 +58,15 @@ Attendee *getAttendeeById(Attendee *head, string id)
     }
     return nullptr;
 }
+
+void updateAttendee(Attendee *head, Attendee *attendee)
+{
+    Attendee* foundAttendee = getAttendeeById(head, attendee->data.id);
+
+    if (foundAttendee == nullptr)
+    {
+        return;
+    }
+
+    foundAttendee->data.name = attendee->data.name;
+}

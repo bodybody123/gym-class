@@ -2,6 +2,7 @@
 #include "../models/Attendee.hpp"
 #include "../models/Registration.hpp"
 #include "../Lists/AttendeeList.hpp"
+#include "AttendeeService.hpp"
 
 using namespace std;
 
@@ -78,4 +79,35 @@ void countAttendeesClassSessions(
 
         currentAttendee = currentAttendee->next;
     }
+}
+int countAttendeesWithNoClassSessions(Attendee *attendeeHead, Registration *registrationHead)
+{
+    Attendee* currentAttendee = attendeeHead;
+
+    int noClassSessionCount = 0;
+
+    while (currentAttendee != nullptr)
+    {
+        bool hasClassSessions = false;
+        Registration* currentRegistration = registrationHead;
+
+        while (currentRegistration != nullptr)
+        {
+            if (currentRegistration->attendee == currentAttendee)
+            {
+                hasClassSessions = true;
+                break;
+            }
+            currentRegistration = currentRegistration->next;
+        }
+
+        if (!hasClassSessions)
+        {
+            noClassSessionCount++;
+        }
+
+        currentAttendee = currentAttendee->next;
+    }
+
+    return noClassSessionCount;
 }
