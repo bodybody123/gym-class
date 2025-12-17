@@ -33,6 +33,7 @@ void printClassSessionDetails(ClassSession *classSession)
     if (classSession != nullptr) {
         cout << "Class ID: " << classSession->id << endl;
         cout << "Class Name: " << classSession->name << endl;
+        cout << "Description: " << classSession->description << endl;
         cout << "Schedule: " << getDateTime(classSession->schedule) << endl;
         cout << "Capacity: " << classSession->capacity << endl;
         cout << "Fee: Rp." << classSession->fee << endl;
@@ -67,6 +68,7 @@ void updateClassSessionData(ClassSession *head, const string &id, ClassSession u
     }
 
     classSession->name = updatedData.name;
+    classSession->description = updatedData.description;
     classSession->schedule = updatedData.schedule;
     classSession->capacity = updatedData.capacity;
     classSession->fee = updatedData.fee;

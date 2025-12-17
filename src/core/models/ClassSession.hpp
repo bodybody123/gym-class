@@ -11,6 +11,7 @@ using namespace std;
 struct ClassSession {
     string id;
     string name;
+    string description;
     Date schedule;
     int capacity;
     int fee;
