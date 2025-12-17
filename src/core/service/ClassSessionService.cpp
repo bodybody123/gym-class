@@ -154,7 +154,7 @@ void getClassSessionDetailById(
     }
 }
 
-void ClassSessionService::showAttendeesFromClass(
+void showAttendeesFromClass(
     Registration* registrationHead,
     const std::string& classSessionId
 ) {
@@ -175,9 +175,9 @@ void ClassSessionService::showAttendeesFromClass(
     Registration* current = registrationHead;
 
     while (current != nullptr) {
-        if (current->classSession != nullptr &&
+        if (current->class_session != nullptr &&
             current->attendee != nullptr &&
-            current->classSession->id == classSessionId) {
+            current->class_session->id == classSessionId) {
 
             std::cout << ++count << ". "
                       << current->attendee->data.name
