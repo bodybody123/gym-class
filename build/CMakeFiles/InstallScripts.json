@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/mnt/c/Users/bodybody/Documents/projects/gym-class/build/cmake_install.cmake",
+		"/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/cmake_install.cmake",
+		"/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/cmake_install.cmake",
+		"/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/System/cmake_install.cmake",
+		"/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window/cmake_install.cmake",
+		"/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Network/cmake_install.cmake",
+		"/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics/cmake_install.cmake",
+		"/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

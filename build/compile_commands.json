@@ -1,0 +1,668 @@
+[
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/src -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -g -std=gnu++17 -o CMakeFiles/gym-class.dir/src/core/lists/AttendeeList.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/AttendeeList.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/AttendeeList.cpp",
+  "output": "CMakeFiles/gym-class.dir/src/core/lists/AttendeeList.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/src -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -g -std=gnu++17 -o CMakeFiles/gym-class.dir/src/core/lists/ClassSessionList.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/ClassSessionList.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/ClassSessionList.cpp",
+  "output": "CMakeFiles/gym-class.dir/src/core/lists/ClassSessionList.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/src -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -g -std=gnu++17 -o CMakeFiles/gym-class.dir/src/core/lists/RegistrationList.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/RegistrationList.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/RegistrationList.cpp",
+  "output": "CMakeFiles/gym-class.dir/src/core/lists/RegistrationList.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/src -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -g -std=gnu++17 -o CMakeFiles/gym-class.dir/src/core/models/Date.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/models/Date.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/models/Date.cpp",
+  "output": "CMakeFiles/gym-class.dir/src/core/models/Date.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/src -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -g -std=gnu++17 -o CMakeFiles/gym-class.dir/src/core/service/AttendeeService.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/AttendeeService.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/AttendeeService.cpp",
+  "output": "CMakeFiles/gym-class.dir/src/core/service/AttendeeService.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/src -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -g -std=gnu++17 -o CMakeFiles/gym-class.dir/src/core/service/ClassSessionService.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/ClassSessionService.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/ClassSessionService.cpp",
+  "output": "CMakeFiles/gym-class.dir/src/core/service/ClassSessionService.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/src -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -g -std=gnu++17 -o CMakeFiles/gym-class.dir/src/core/service/RegistrationService.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/RegistrationService.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/RegistrationService.cpp",
+  "output": "CMakeFiles/gym-class.dir/src/core/service/RegistrationService.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/src -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -g -std=gnu++17 -o CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/DashboardPage.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/DashboardPage.cpp",
+  "output": "CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/src -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -g -std=gnu++17 -o CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/LoginPage.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/LoginPage.cpp",
+  "output": "CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/src -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -g -std=gnu++17 -o CMakeFiles/gym-class.dir/src/core/view/pages.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/pages.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/pages.cpp",
+  "output": "CMakeFiles/gym-class.dir/src/core/view/pages.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/src -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -g -std=gnu++17 -o CMakeFiles/gym-class.dir/src/main.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/main.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/src/main.cpp",
+  "output": "CMakeFiles/gym-class.dir/src/main.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/System",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-system.dir/Clock.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Clock.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Clock.cpp",
+  "output": "external/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/System",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-system.dir/Err.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Err.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Err.cpp",
+  "output": "external/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/System",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-system.dir/Sleep.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Sleep.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Sleep.cpp",
+  "output": "external/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/System",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-system.dir/String.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/String.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/String.cpp",
+  "output": "external/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/System",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-system.dir/Utils.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Utils.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Utils.cpp",
+  "output": "external/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Utils.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/System",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-system.dir/Vector2.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Vector2.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Vector2.cpp",
+  "output": "external/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Vector2.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/System",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-system.dir/Vector3.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Vector3.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Vector3.cpp",
+  "output": "external/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Vector3.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/System",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-system.dir/FileInputStream.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/FileInputStream.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/FileInputStream.cpp",
+  "output": "external/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/System",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/MemoryInputStream.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/MemoryInputStream.cpp",
+  "output": "external/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/System",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Unix/SleepImpl.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/System/Unix/SleepImpl.cpp",
+  "output": "external/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Clipboard.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Clipboard.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Clipboard.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Context.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Context.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Context.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Cursor.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Cursor.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Cursor.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/GlContext.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/GlContext.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/GlContext.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/GlResource.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/GlResource.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/GlResource.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Joystick.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Joystick.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Joystick.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/JoystickManager.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/JoystickManager.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/JoystickManager.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Keyboard.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Keyboard.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Keyboard.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Mouse.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Mouse.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Mouse.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Touch.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Touch.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Touch.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Sensor.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Sensor.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Sensor.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/SensorManager.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/SensorManager.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/SensorManager.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/VideoMode.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/VideoMode.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/VideoMode.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Vulkan.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Vulkan.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Vulkan.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Window.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Window.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Window.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/WindowBase.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/WindowBase.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/WindowBase.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/WindowImpl.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/WindowImpl.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/WindowImpl.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/CursorImpl.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/CursorImpl.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/ClipboardImpl.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/ClipboardImpl.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/InputImpl.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/InputImpl.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Unix/KeyboardImpl.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/KeyboardImpl.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/KeyboardImpl.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/KeyboardImpl.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Unix/KeySymToKeyMapping.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/KeySymToKeyMapping.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/KeySymToKeyMapping.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/KeySymToKeyMapping.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Unix/KeySymToUnicodeMapping.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/KeySymToUnicodeMapping.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/KeySymToUnicodeMapping.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/KeySymToUnicodeMapping.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/SensorImpl.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/SensorImpl.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Unix/Display.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/Display.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/Display.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/VideoModeImpl.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/VideoModeImpl.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/VulkanImplX11.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/VulkanImplX11.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/WindowImplX11.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/WindowImplX11.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/GlxContext.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/GlxContext.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Window",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/vulkan -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/JoystickImpl.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Window/Unix/JoystickImpl.cpp",
+  "output": "external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Network",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-network.dir/Ftp.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/Ftp.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/Ftp.cpp",
+  "output": "external/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Network",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-network.dir/Http.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/Http.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/Http.cpp",
+  "output": "external/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Network",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-network.dir/IpAddress.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/IpAddress.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/IpAddress.cpp",
+  "output": "external/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Network",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-network.dir/Packet.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/Packet.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/Packet.cpp",
+  "output": "external/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Network",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-network.dir/Socket.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/Socket.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/Socket.cpp",
+  "output": "external/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Network",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-network.dir/SocketSelector.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/SocketSelector.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/SocketSelector.cpp",
+  "output": "external/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Network",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-network.dir/TcpListener.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/TcpListener.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/TcpListener.cpp",
+  "output": "external/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Network",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-network.dir/TcpSocket.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/TcpSocket.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/TcpSocket.cpp",
+  "output": "external/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Network",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-network.dir/UdpSocket.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/UdpSocket.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/UdpSocket.cpp",
+  "output": "external/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Network",
+  "command": "/usr/bin/c++ -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/Unix/SocketImpl.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Network/Unix/SocketImpl.cpp",
+  "output": "external/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/BlendMode.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/BlendMode.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/Font.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Font.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Font.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/Glsl.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Glsl.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Glsl.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/GLCheck.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/GLCheck.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/GLExtensions.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/GLExtensions.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -fno-strict-aliasing -o CMakeFiles/sfml-graphics.dir/Image.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Image.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Image.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RenderStates.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RenderStates.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RenderTexture.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RenderTexture.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RenderTarget.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RenderTarget.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RenderWindow.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RenderWindow.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/Shader.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Shader.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Shader.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/StencilMode.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/StencilMode.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/StencilMode.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/StencilMode.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/Texture.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Texture.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Texture.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/TextureSaver.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/TextureSaver.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/Transform.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Transform.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Transform.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/Transformable.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Transformable.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Transformable.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/View.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/View.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/View.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/Shape.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Shape.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Shape.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/CircleShape.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/CircleShape.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RectangleShape.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RectangleShape.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/ConvexShape.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/ConvexShape.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/Sprite.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Sprite.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Sprite.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/Text.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Text.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/Text.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/VertexArray.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/VertexArray.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/VertexBuffer.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/VertexBuffer.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Graphics",
+  "command": "/usr/bin/c++ -DSFML_STATIC -DSTBI_FAILURE_USERMSG -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/stb_image -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/glad/include -isystem /usr/include/freetype2 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp",
+  "output": "external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/AudioResource.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/AudioResource.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/AudioResource.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioResource.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/AudioDevice.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/AudioDevice.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/Listener.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/Listener.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/Listener.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/Miniaudio.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/Miniaudio.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/Miniaudio.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Miniaudio.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/MiniaudioUtils.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/MiniaudioUtils.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/MiniaudioUtils.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/MiniaudioUtils.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/Music.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/Music.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/Music.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/PlaybackDevice.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/PlaybackDevice.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/PlaybackDevice.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/PlaybackDevice.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/Sound.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/Sound.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/Sound.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundBuffer.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundBuffer.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundBufferRecorder.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundBufferRecorder.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/InputSoundFile.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/InputSoundFile.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/OutputSoundFile.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/OutputSoundFile.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundRecorder.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundRecorder.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/SoundSource.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundSource.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundSource.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/SoundStream.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundStream.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundStream.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileFactory.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileFactory.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileReaderFlac.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileReaderFlac.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileReaderMp3.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileReaderMp3.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderMp3.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileReaderOgg.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileReaderOgg.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileReaderWav.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileReaderWav.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileWriterFlac.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileWriterFlac.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileWriterOgg.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileWriterOgg.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/bodybody/Documents/projects/gym-class/build/external/SFML/src/SFML/Audio",
+  "command": "/usr/bin/c++ -DFLAC__NO_DLL -DMA_NO_ENCODING -DMA_NO_FLAC -DMA_NO_GENERATION -DMA_NO_MP3 -DMA_NO_RESOURCE_MANAGER -DMA_USE_STDINT -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_IS_BIG_ENDIAN=0 -DSFML_STATIC -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/include -I/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/miniaudio -isystem /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/extlibs/headers/minimp3 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wimplicit-fallthrough -Wsuggest-override -Wnull-dereference -Wold-style-cast -Wpedantic -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileWriterWav.cpp",
+  "file": "/mnt/c/Users/bodybody/Documents/projects/gym-class/external/SFML/src/SFML/Audio/SoundFileWriterWav.cpp",
+  "output": "external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o"
+}
+]
