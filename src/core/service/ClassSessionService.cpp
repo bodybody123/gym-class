@@ -4,18 +4,26 @@
 #include "../Lists/RegistrationList.hpp"
 #include "ClassSessionService.hpp"
 #include "../models/Date.hpp"
+#include "RegistrationService.hpp"
  
 void attendingClassSession(
     ClassSession *classSession, 
-    Registration *registrationHead, 
+    Registration* &registrationHead, 
     Attendee *attendee
 ) {
-    Registration data = Registration();
-    data.registration_date = Date();
-    data.attendee = attendee;
-    data.class_session = classSession;
+    if (hasRelation(registrationHead, attendee->data.id, classSession->id)) {
+        cout << "Kelas sudah terdaftar sebelumnya" << endl;
+        return;
+    }
 
-    insertRegistration(registrationHead, &data);
+    Registration* data = new Registration();
+    data->registration_date = getCurrentDateTime();
+    data->attendee = attendee;
+    data->class_session = classSession;
+    data->next = nullptr;
+
+    insertRegistration(registrationHead, data);
+    cout << "Kelas berhasil terdaftar" << endl;
 }
 
 void getAllClassAndAttendees(
@@ -126,6 +134,35 @@ int countClassSessionsWithNoAttendees(ClassSession *classSessionHead, Registrati
     }
 
     return noAttendeeCount;
+}
+
+void getAllAttendingClass(Registration *registrationHead, Attendee *attendee)
+{
+    Registration *currentRegistration = registrationHead;
+    while (currentRegistration != nullptr)
+    {
+        if (currentRegistration->attendee->data.id == attendee->data.id)
+        {
+            cout << "ID: " + currentRegistration->class_session->id << endl;
+            cout << "Class name: " + currentRegistration->class_session->name << endl;
+            cout << "registered date: " + getDateTime(currentRegistration->registration_date) << endl;
+        }
+        
+        currentRegistration = currentRegistration->next;
+    }
+}
+
+void getAllAvailableToAttendClass(ClassSession *classSessionHead, Registration *registrationHead, Attendee *attendee)
+{
+    ClassSession *currentClassSession = classSessionHead;
+    while (currentClassSession != nullptr)
+    {
+        if (!hasRelation(registrationHead, attendee->data.id, currentClassSession->id)) {
+            printClassSessionDetails(currentClassSession);
+        }
+        currentClassSession = currentClassSession->next;
+    }
+    
 }
 
 void getClassSessionDetailById(

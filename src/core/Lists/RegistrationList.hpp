@@ -3,7 +3,8 @@
 
 #include "../models/Registration.hpp"
 
-void insertRegistration(Registration* head, Registration *registration);
-void deleteRegistration(Registration* head, const string& id);
+void insertRegistration(Registration* &head, Registration *registration);
+void deleteRegistration(Registration* &head, const string& id);
+void getAllRegistration(Registration *head);
 
 #endif

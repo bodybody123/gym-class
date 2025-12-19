@@ -170,52 +170,108 @@ CMakeFiles/gym-class.dir/src/core/service/RegistrationService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gym-class.dir/src/core/service/RegistrationService.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/RegistrationService.cpp -o CMakeFiles/gym-class.dir/src/core/service/RegistrationService.cpp.s
 
-CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.o: CMakeFiles/gym-class.dir/flags.make
-CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.o: /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/DashboardPage.cpp
-CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.o: CMakeFiles/gym-class.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.o -MF CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.o.d -o CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/DashboardPage.cpp
+CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.o: CMakeFiles/gym-class.dir/flags.make
+CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.o: /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/utils/GenerateId.cpp
+CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.o: CMakeFiles/gym-class.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.o -MF CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.o.d -o CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/utils/GenerateId.cpp
 
-CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/DashboardPage.cpp > CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.i
+CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/utils/GenerateId.cpp > CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.i
 
-CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/DashboardPage.cpp -o CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.s
+CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/utils/GenerateId.cpp -o CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.s
 
-CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.o: CMakeFiles/gym-class.dir/flags.make
-CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.o: /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/LoginPage.cpp
-CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.o: CMakeFiles/gym-class.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.o -MF CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.o.d -o CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/LoginPage.cpp
+CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.o: CMakeFiles/gym-class.dir/flags.make
+CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.o: /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CClassDetaiPage.cpp
+CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.o: CMakeFiles/gym-class.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.o -MF CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.o.d -o CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CClassDetaiPage.cpp
 
-CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/LoginPage.cpp > CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.i
+CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CClassDetaiPage.cpp > CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.i
 
-CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/LoginPage.cpp -o CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.s
+CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CClassDetaiPage.cpp -o CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.s
 
-CMakeFiles/gym-class.dir/src/core/view/pages.cpp.o: CMakeFiles/gym-class.dir/flags.make
-CMakeFiles/gym-class.dir/src/core/view/pages.cpp.o: /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/pages.cpp
-CMakeFiles/gym-class.dir/src/core/view/pages.cpp.o: CMakeFiles/gym-class.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/gym-class.dir/src/core/view/pages.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gym-class.dir/src/core/view/pages.cpp.o -MF CMakeFiles/gym-class.dir/src/core/view/pages.cpp.o.d -o CMakeFiles/gym-class.dir/src/core/view/pages.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/pages.cpp
+CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.o: CMakeFiles/gym-class.dir/flags.make
+CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.o: /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CDashboardPage.cpp
+CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.o: CMakeFiles/gym-class.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.o -MF CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.o.d -o CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CDashboardPage.cpp
 
-CMakeFiles/gym-class.dir/src/core/view/pages.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gym-class.dir/src/core/view/pages.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/pages.cpp > CMakeFiles/gym-class.dir/src/core/view/pages.cpp.i
+CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CDashboardPage.cpp > CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.i
 
-CMakeFiles/gym-class.dir/src/core/view/pages.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gym-class.dir/src/core/view/pages.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/pages.cpp -o CMakeFiles/gym-class.dir/src/core/view/pages.cpp.s
+CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CDashboardPage.cpp -o CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.s
+
+CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.o: CMakeFiles/gym-class.dir/flags.make
+CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.o: /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CDeregisterClassSessionPage.cpp
+CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.o: CMakeFiles/gym-class.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.o -MF CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.o.d -o CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CDeregisterClassSessionPage.cpp
+
+CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CDeregisterClassSessionPage.cpp > CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.i
+
+CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CDeregisterClassSessionPage.cpp -o CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.s
+
+CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.o: CMakeFiles/gym-class.dir/flags.make
+CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.o: /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CGetAllClassPage.cpp
+CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.o: CMakeFiles/gym-class.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.o -MF CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.o.d -o CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CGetAllClassPage.cpp
+
+CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CGetAllClassPage.cpp > CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.i
+
+CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CGetAllClassPage.cpp -o CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.s
+
+CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.o: CMakeFiles/gym-class.dir/flags.make
+CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.o: /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CLoginPage.cpp
+CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.o: CMakeFiles/gym-class.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.o -MF CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.o.d -o CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CLoginPage.cpp
+
+CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CLoginPage.cpp > CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.i
+
+CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CLoginPage.cpp -o CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.s
+
+CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.o: CMakeFiles/gym-class.dir/flags.make
+CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.o: /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CRegisterClassSessionPage.cpp
+CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.o: CMakeFiles/gym-class.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.o -MF CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.o.d -o CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CRegisterClassSessionPage.cpp
+
+CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CRegisterClassSessionPage.cpp > CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.i
+
+CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CRegisterClassSessionPage.cpp -o CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.s
 
 CMakeFiles/gym-class.dir/src/main.cpp.o: CMakeFiles/gym-class.dir/flags.make
 CMakeFiles/gym-class.dir/src/main.cpp.o: /mnt/c/Users/bodybody/Documents/projects/gym-class/src/main.cpp
 CMakeFiles/gym-class.dir/src/main.cpp.o: CMakeFiles/gym-class.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/gym-class.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/gym-class.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gym-class.dir/src/main.cpp.o -MF CMakeFiles/gym-class.dir/src/main.cpp.o.d -o CMakeFiles/gym-class.dir/src/main.cpp.o -c /mnt/c/Users/bodybody/Documents/projects/gym-class/src/main.cpp
 
 CMakeFiles/gym-class.dir/src/main.cpp.i: cmake_force
@@ -235,9 +291,13 @@ gym__class_OBJECTS = \
 "CMakeFiles/gym-class.dir/src/core/service/AttendeeService.cpp.o" \
 "CMakeFiles/gym-class.dir/src/core/service/ClassSessionService.cpp.o" \
 "CMakeFiles/gym-class.dir/src/core/service/RegistrationService.cpp.o" \
-"CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.o" \
-"CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.o" \
-"CMakeFiles/gym-class.dir/src/core/view/pages.cpp.o" \
+"CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.o" \
+"CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.o" \
+"CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.o" \
+"CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.o" \
+"CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.o" \
+"CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.o" \
+"CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.o" \
 "CMakeFiles/gym-class.dir/src/main.cpp.o"
 
 # External object files for target gym-class
@@ -250,29 +310,18 @@ gym-class: CMakeFiles/gym-class.dir/src/core/models/Date.cpp.o
 gym-class: CMakeFiles/gym-class.dir/src/core/service/AttendeeService.cpp.o
 gym-class: CMakeFiles/gym-class.dir/src/core/service/ClassSessionService.cpp.o
 gym-class: CMakeFiles/gym-class.dir/src/core/service/RegistrationService.cpp.o
-gym-class: CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.o
-gym-class: CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.o
-gym-class: CMakeFiles/gym-class.dir/src/core/view/pages.cpp.o
+gym-class: CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.o
+gym-class: CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.o
+gym-class: CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.o
+gym-class: CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.o
+gym-class: CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.o
+gym-class: CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.o
+gym-class: CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.o
 gym-class: CMakeFiles/gym-class.dir/src/main.cpp.o
 gym-class: CMakeFiles/gym-class.dir/build.make
-gym-class: external/SFML/lib/libsfml-graphics-s-d.a
-gym-class: external/SFML/lib/libsfml-window-s-d.a
-gym-class: external/SFML/lib/libsfml-system-s-d.a
-gym-class: /usr/lib/x86_64-linux-gnu/libXrandr.so
-gym-class: /usr/lib/x86_64-linux-gnu/libXcursor.so
-gym-class: /usr/lib/x86_64-linux-gnu/libXrender.so
-gym-class: /usr/lib/x86_64-linux-gnu/libXfixes.so
-gym-class: /usr/lib/x86_64-linux-gnu/libXi.so
-gym-class: /usr/lib/x86_64-linux-gnu/libXext.so
-gym-class: /usr/lib/x86_64-linux-gnu/libX11.so
-gym-class: /usr/lib/x86_64-linux-gnu/libGL.so
-gym-class: /usr/lib/x86_64-linux-gnu/libudev.so
-gym-class: /usr/lib/x86_64-linux-gnu/libfreetype.so
 gym-class: CMakeFiles/gym-class.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable gym-class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable gym-class"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gym-class.dir/link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying assets to executable directory..."
-	/usr/local/bin/cmake -E copy_directory /mnt/c/Users/bodybody/Documents/projects/gym-class/assets /mnt/c/Users/bodybody/Documents/projects/gym-class/build/assets
 
 # Rule to build all files generated by this target.
 CMakeFiles/gym-class.dir/build: gym-class

@@ -158,4 +158,6 @@ CMakeFiles/gym-class.dir/src/core/service/ClassSessionService.cpp.o: \
  /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/../Lists/../models/Registration.hpp \
  /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/ClassSessionService.hpp \
  /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/../models/ClassSession.hpp \
- /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/../models/Date.hpp
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/../models/Date.hpp \
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/RegistrationService.hpp \
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/service/../models/Attendee.hpp

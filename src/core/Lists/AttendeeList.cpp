@@ -3,8 +3,7 @@
 
 using namespace std;
 
-void insertAttendee(Attendee* head, Attendee *attendee) {
-    attendee->data.id = "random_id";
+void insertAttendee(Attendee* &head, Attendee *attendee) {
     attendee->next = head;
     head = attendee;
 }
@@ -69,4 +68,16 @@ void updateAttendee(Attendee *head, Attendee *attendee)
     }
 
     foundAttendee->data.name = attendee->data.name;
+}
+
+Attendee *getAttendeeByUsername(Attendee *head, string username)
+{
+    Attendee* current = head;
+    while (current != nullptr) {
+        if (current->data.name == username) {
+            return current;
+        }
+        current = current->next;
+    }
+    return nullptr;
 }

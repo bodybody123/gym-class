@@ -15,7 +15,6 @@ struct ClassSession {
     Date schedule;
     int capacity;
     int fee;
-    int attendee_count;
     string coach;
     ClassSession* next;
 };

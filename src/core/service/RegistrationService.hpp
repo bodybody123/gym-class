@@ -11,10 +11,6 @@ bool hasRelation(
     const string& classSessionId
 );
 
-void deregisterAttendee(
-    Registration** registrationHead, 
-    Attendee* attendee, 
-    ClassSession* classSession
-);
+void deregisterAttendee(Registration *&registrationHead, Attendee *attendee, ClassSession *classSession);
 
 #endif

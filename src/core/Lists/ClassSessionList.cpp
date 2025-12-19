@@ -2,8 +2,7 @@
 #include "ClassSessionList.hpp"
 #include "../models/Date.hpp"
 
-void insertClassSessionData(ClassSession* head, ClassSession *classSession) {
-    classSession->id = "random_id";
+void insertClassSessionData(ClassSession* &head, ClassSession *classSession) {
     classSession->next = head;
     head = classSession;
 }
@@ -37,7 +36,6 @@ void printClassSessionDetails(ClassSession *classSession)
         cout << "Schedule: " << getDateTime(classSession->schedule) << endl;
         cout << "Capacity: " << classSession->capacity << endl;
         cout << "Fee: Rp." << classSession->fee << endl;
-        cout << "Attendee Count: " << classSession->attendee_count << endl;
         cout << "Coach: " << classSession->coach << endl;
     } else {
         cout << "Class session not found." << endl;
@@ -45,7 +43,21 @@ void printClassSessionDetails(ClassSession *classSession)
 }
 
 void getAllClassSessions(ClassSession *head)
-{
+{   
+    ClassSession *curr = head;
+    while (curr != nullptr) {
+        cout << "Class ID: " << curr->id << endl;
+        cout << "Class Name: " << curr->name << endl;
+        cout << "Description: " << curr->description << endl;
+        cout << "Schedule: " << getDateTime(curr->schedule) << endl;
+        cout << "Capacity: " << curr->capacity << endl;
+        cout << "Fee: Rp." << curr->fee << endl;
+        cout << "Coach: " << curr->coach << endl;
+
+        curr = curr->next;
+    }
+
+    cout << endl;
 }
 
 ClassSession *getClassSessionById(ClassSession *head, string id)
@@ -72,7 +84,6 @@ void updateClassSessionData(ClassSession *head, const string &id, ClassSession u
     classSession->schedule = updatedData.schedule;
     classSession->capacity = updatedData.capacity;
     classSession->fee = updatedData.fee;
-    classSession->attendee_count = updatedData.attendee_count;
     classSession->coach = updatedData.coach;
 }
 

@@ -1,8 +1,7 @@
-CMakeFiles/gym-class.dir/src/core/lists/RegistrationList.cpp.o: \
- /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/RegistrationList.cpp \
+CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.o: \
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/CRegisterClassSessionPage.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/RegistrationList.hpp \
- /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/../models/Registration.hpp \
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/../models/ClassSession.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -131,9 +130,11 @@ CMakeFiles/gym-class.dir/src/core/lists/RegistrationList.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/../models/Date.hpp \
- /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/../models/Attendee.hpp \
- /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/../models/ClassSession.hpp \
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/../models/Date.hpp \
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/../models/Attendee.hpp \
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/../models/Registration.hpp \
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/../models/ClassSession.hpp \
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/../models/Attendee.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
@@ -156,8 +157,8 @@ CMakeFiles/gym-class.dir/src/core/lists/RegistrationList.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/ClassSessionList.hpp \
- /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/../models/ClassSession.hpp \
- /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/AttendeeList.hpp \
- /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/../models/Attendee.hpp \
- /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/lists/../models/Date.hpp
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/../Lists/ClassSessionList.hpp \
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/../Lists/../models/ClassSession.hpp \
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/../service/ClassSessionService.hpp \
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/../service/../models/ClassSession.hpp \
+ /mnt/c/Users/bodybody/Documents/projects/gym-class/src/core/view/../service/../models/Registration.hpp

@@ -85,51 +85,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\" \"devel\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-.PHONY : list_install_components/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/local/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/local/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles /mnt/c/Users/bodybody/Documents/projects/gym-class/build//CMakeFiles/progress.marks
@@ -173,71 +128,6 @@ gym-class: cmake_check_build_system
 gym-class/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/build
 .PHONY : gym-class/fast
-
-#=============================================================================
-# Target rules for targets named sfml-system
-
-# Build rule for target.
-sfml-system: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sfml-system
-.PHONY : sfml-system
-
-# fast build rule for target.
-sfml-system/fast:
-	$(MAKE) $(MAKESILENT) -f external/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build.make external/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build
-.PHONY : sfml-system/fast
-
-#=============================================================================
-# Target rules for targets named sfml-window
-
-# Build rule for target.
-sfml-window: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sfml-window
-.PHONY : sfml-window
-
-# fast build rule for target.
-sfml-window/fast:
-	$(MAKE) $(MAKESILENT) -f external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make external/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build
-.PHONY : sfml-window/fast
-
-#=============================================================================
-# Target rules for targets named sfml-network
-
-# Build rule for target.
-sfml-network: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sfml-network
-.PHONY : sfml-network
-
-# fast build rule for target.
-sfml-network/fast:
-	$(MAKE) $(MAKESILENT) -f external/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make external/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/build
-.PHONY : sfml-network/fast
-
-#=============================================================================
-# Target rules for targets named sfml-graphics
-
-# Build rule for target.
-sfml-graphics: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sfml-graphics
-.PHONY : sfml-graphics
-
-# fast build rule for target.
-sfml-graphics/fast:
-	$(MAKE) $(MAKESILENT) -f external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make external/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
-.PHONY : sfml-graphics/fast
-
-#=============================================================================
-# Target rules for targets named sfml-audio
-
-# Build rule for target.
-sfml-audio: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sfml-audio
-.PHONY : sfml-audio
-
-# fast build rule for target.
-sfml-audio/fast:
-	$(MAKE) $(MAKESILENT) -f external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make external/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
-.PHONY : sfml-audio/fast
 
 src/core/lists/AttendeeList.o: src/core/lists/AttendeeList.cpp.o
 .PHONY : src/core/lists/AttendeeList.o
@@ -407,77 +297,173 @@ src/core/service/RegistrationService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/service/RegistrationService.cpp.s
 .PHONY : src/core/service/RegistrationService.cpp.s
 
-src/core/view/DashboardPage.o: src/core/view/DashboardPage.cpp.o
-.PHONY : src/core/view/DashboardPage.o
+src/core/utils/GenerateId.o: src/core/utils/GenerateId.cpp.o
+.PHONY : src/core/utils/GenerateId.o
 
 # target to build an object file
-src/core/view/DashboardPage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.o
-.PHONY : src/core/view/DashboardPage.cpp.o
+src/core/utils/GenerateId.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.o
+.PHONY : src/core/utils/GenerateId.cpp.o
 
-src/core/view/DashboardPage.i: src/core/view/DashboardPage.cpp.i
-.PHONY : src/core/view/DashboardPage.i
+src/core/utils/GenerateId.i: src/core/utils/GenerateId.cpp.i
+.PHONY : src/core/utils/GenerateId.i
 
 # target to preprocess a source file
-src/core/view/DashboardPage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.i
-.PHONY : src/core/view/DashboardPage.cpp.i
+src/core/utils/GenerateId.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.i
+.PHONY : src/core/utils/GenerateId.cpp.i
 
-src/core/view/DashboardPage.s: src/core/view/DashboardPage.cpp.s
-.PHONY : src/core/view/DashboardPage.s
+src/core/utils/GenerateId.s: src/core/utils/GenerateId.cpp.s
+.PHONY : src/core/utils/GenerateId.s
 
 # target to generate assembly for a file
-src/core/view/DashboardPage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/DashboardPage.cpp.s
-.PHONY : src/core/view/DashboardPage.cpp.s
+src/core/utils/GenerateId.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/utils/GenerateId.cpp.s
+.PHONY : src/core/utils/GenerateId.cpp.s
 
-src/core/view/LoginPage.o: src/core/view/LoginPage.cpp.o
-.PHONY : src/core/view/LoginPage.o
+src/core/view/CClassDetaiPage.o: src/core/view/CClassDetaiPage.cpp.o
+.PHONY : src/core/view/CClassDetaiPage.o
 
 # target to build an object file
-src/core/view/LoginPage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.o
-.PHONY : src/core/view/LoginPage.cpp.o
+src/core/view/CClassDetaiPage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.o
+.PHONY : src/core/view/CClassDetaiPage.cpp.o
 
-src/core/view/LoginPage.i: src/core/view/LoginPage.cpp.i
-.PHONY : src/core/view/LoginPage.i
+src/core/view/CClassDetaiPage.i: src/core/view/CClassDetaiPage.cpp.i
+.PHONY : src/core/view/CClassDetaiPage.i
 
 # target to preprocess a source file
-src/core/view/LoginPage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.i
-.PHONY : src/core/view/LoginPage.cpp.i
+src/core/view/CClassDetaiPage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.i
+.PHONY : src/core/view/CClassDetaiPage.cpp.i
 
-src/core/view/LoginPage.s: src/core/view/LoginPage.cpp.s
-.PHONY : src/core/view/LoginPage.s
+src/core/view/CClassDetaiPage.s: src/core/view/CClassDetaiPage.cpp.s
+.PHONY : src/core/view/CClassDetaiPage.s
 
 # target to generate assembly for a file
-src/core/view/LoginPage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/LoginPage.cpp.s
-.PHONY : src/core/view/LoginPage.cpp.s
+src/core/view/CClassDetaiPage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CClassDetaiPage.cpp.s
+.PHONY : src/core/view/CClassDetaiPage.cpp.s
 
-src/core/view/pages.o: src/core/view/pages.cpp.o
-.PHONY : src/core/view/pages.o
+src/core/view/CDashboardPage.o: src/core/view/CDashboardPage.cpp.o
+.PHONY : src/core/view/CDashboardPage.o
 
 # target to build an object file
-src/core/view/pages.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/pages.cpp.o
-.PHONY : src/core/view/pages.cpp.o
+src/core/view/CDashboardPage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.o
+.PHONY : src/core/view/CDashboardPage.cpp.o
 
-src/core/view/pages.i: src/core/view/pages.cpp.i
-.PHONY : src/core/view/pages.i
+src/core/view/CDashboardPage.i: src/core/view/CDashboardPage.cpp.i
+.PHONY : src/core/view/CDashboardPage.i
 
 # target to preprocess a source file
-src/core/view/pages.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/pages.cpp.i
-.PHONY : src/core/view/pages.cpp.i
+src/core/view/CDashboardPage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.i
+.PHONY : src/core/view/CDashboardPage.cpp.i
 
-src/core/view/pages.s: src/core/view/pages.cpp.s
-.PHONY : src/core/view/pages.s
+src/core/view/CDashboardPage.s: src/core/view/CDashboardPage.cpp.s
+.PHONY : src/core/view/CDashboardPage.s
 
 # target to generate assembly for a file
-src/core/view/pages.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/pages.cpp.s
-.PHONY : src/core/view/pages.cpp.s
+src/core/view/CDashboardPage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CDashboardPage.cpp.s
+.PHONY : src/core/view/CDashboardPage.cpp.s
+
+src/core/view/CDeregisterClassSessionPage.o: src/core/view/CDeregisterClassSessionPage.cpp.o
+.PHONY : src/core/view/CDeregisterClassSessionPage.o
+
+# target to build an object file
+src/core/view/CDeregisterClassSessionPage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.o
+.PHONY : src/core/view/CDeregisterClassSessionPage.cpp.o
+
+src/core/view/CDeregisterClassSessionPage.i: src/core/view/CDeregisterClassSessionPage.cpp.i
+.PHONY : src/core/view/CDeregisterClassSessionPage.i
+
+# target to preprocess a source file
+src/core/view/CDeregisterClassSessionPage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.i
+.PHONY : src/core/view/CDeregisterClassSessionPage.cpp.i
+
+src/core/view/CDeregisterClassSessionPage.s: src/core/view/CDeregisterClassSessionPage.cpp.s
+.PHONY : src/core/view/CDeregisterClassSessionPage.s
+
+# target to generate assembly for a file
+src/core/view/CDeregisterClassSessionPage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CDeregisterClassSessionPage.cpp.s
+.PHONY : src/core/view/CDeregisterClassSessionPage.cpp.s
+
+src/core/view/CGetAllClassPage.o: src/core/view/CGetAllClassPage.cpp.o
+.PHONY : src/core/view/CGetAllClassPage.o
+
+# target to build an object file
+src/core/view/CGetAllClassPage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.o
+.PHONY : src/core/view/CGetAllClassPage.cpp.o
+
+src/core/view/CGetAllClassPage.i: src/core/view/CGetAllClassPage.cpp.i
+.PHONY : src/core/view/CGetAllClassPage.i
+
+# target to preprocess a source file
+src/core/view/CGetAllClassPage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.i
+.PHONY : src/core/view/CGetAllClassPage.cpp.i
+
+src/core/view/CGetAllClassPage.s: src/core/view/CGetAllClassPage.cpp.s
+.PHONY : src/core/view/CGetAllClassPage.s
+
+# target to generate assembly for a file
+src/core/view/CGetAllClassPage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CGetAllClassPage.cpp.s
+.PHONY : src/core/view/CGetAllClassPage.cpp.s
+
+src/core/view/CLoginPage.o: src/core/view/CLoginPage.cpp.o
+.PHONY : src/core/view/CLoginPage.o
+
+# target to build an object file
+src/core/view/CLoginPage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.o
+.PHONY : src/core/view/CLoginPage.cpp.o
+
+src/core/view/CLoginPage.i: src/core/view/CLoginPage.cpp.i
+.PHONY : src/core/view/CLoginPage.i
+
+# target to preprocess a source file
+src/core/view/CLoginPage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.i
+.PHONY : src/core/view/CLoginPage.cpp.i
+
+src/core/view/CLoginPage.s: src/core/view/CLoginPage.cpp.s
+.PHONY : src/core/view/CLoginPage.s
+
+# target to generate assembly for a file
+src/core/view/CLoginPage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CLoginPage.cpp.s
+.PHONY : src/core/view/CLoginPage.cpp.s
+
+src/core/view/CRegisterClassSessionPage.o: src/core/view/CRegisterClassSessionPage.cpp.o
+.PHONY : src/core/view/CRegisterClassSessionPage.o
+
+# target to build an object file
+src/core/view/CRegisterClassSessionPage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.o
+.PHONY : src/core/view/CRegisterClassSessionPage.cpp.o
+
+src/core/view/CRegisterClassSessionPage.i: src/core/view/CRegisterClassSessionPage.cpp.i
+.PHONY : src/core/view/CRegisterClassSessionPage.i
+
+# target to preprocess a source file
+src/core/view/CRegisterClassSessionPage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.i
+.PHONY : src/core/view/CRegisterClassSessionPage.cpp.i
+
+src/core/view/CRegisterClassSessionPage.s: src/core/view/CRegisterClassSessionPage.cpp.s
+.PHONY : src/core/view/CRegisterClassSessionPage.s
+
+# target to generate assembly for a file
+src/core/view/CRegisterClassSessionPage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gym-class.dir/build.make CMakeFiles/gym-class.dir/src/core/view/CRegisterClassSessionPage.cpp.s
+.PHONY : src/core/view/CRegisterClassSessionPage.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -510,17 +496,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... install"
-	@echo "... install/local"
-	@echo "... install/strip"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... gym-class"
-	@echo "... sfml-audio"
-	@echo "... sfml-graphics"
-	@echo "... sfml-network"
-	@echo "... sfml-system"
-	@echo "... sfml-window"
 	@echo "... src/core/lists/AttendeeList.o"
 	@echo "... src/core/lists/AttendeeList.i"
 	@echo "... src/core/lists/AttendeeList.s"
@@ -542,15 +519,27 @@ help:
 	@echo "... src/core/service/RegistrationService.o"
 	@echo "... src/core/service/RegistrationService.i"
 	@echo "... src/core/service/RegistrationService.s"
-	@echo "... src/core/view/DashboardPage.o"
-	@echo "... src/core/view/DashboardPage.i"
-	@echo "... src/core/view/DashboardPage.s"
-	@echo "... src/core/view/LoginPage.o"
-	@echo "... src/core/view/LoginPage.i"
-	@echo "... src/core/view/LoginPage.s"
-	@echo "... src/core/view/pages.o"
-	@echo "... src/core/view/pages.i"
-	@echo "... src/core/view/pages.s"
+	@echo "... src/core/utils/GenerateId.o"
+	@echo "... src/core/utils/GenerateId.i"
+	@echo "... src/core/utils/GenerateId.s"
+	@echo "... src/core/view/CClassDetaiPage.o"
+	@echo "... src/core/view/CClassDetaiPage.i"
+	@echo "... src/core/view/CClassDetaiPage.s"
+	@echo "... src/core/view/CDashboardPage.o"
+	@echo "... src/core/view/CDashboardPage.i"
+	@echo "... src/core/view/CDashboardPage.s"
+	@echo "... src/core/view/CDeregisterClassSessionPage.o"
+	@echo "... src/core/view/CDeregisterClassSessionPage.i"
+	@echo "... src/core/view/CDeregisterClassSessionPage.s"
+	@echo "... src/core/view/CGetAllClassPage.o"
+	@echo "... src/core/view/CGetAllClassPage.i"
+	@echo "... src/core/view/CGetAllClassPage.s"
+	@echo "... src/core/view/CLoginPage.o"
+	@echo "... src/core/view/CLoginPage.i"
+	@echo "... src/core/view/CLoginPage.s"
+	@echo "... src/core/view/CRegisterClassSessionPage.o"
+	@echo "... src/core/view/CRegisterClassSessionPage.i"
+	@echo "... src/core/view/CRegisterClassSessionPage.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,13 +1,17 @@
 #include "RegistrationList.hpp"
 #include <string>
+#include <iostream>
+#include "ClassSessionList.hpp"
+#include "AttendeeList.hpp"
+#include "../models/Date.hpp"
 
-void insertRegistration(Registration* head, Registration *registration)
+void insertRegistration(Registration* &head, Registration *registration)
 {
     registration->next = head;
     head = registration;
 }
 
-void deleteRegistration(Registration* head, const string& id)
+void deleteRegistration(Registration* &head, const string& id)
 {
     Registration *temp = head;
     Registration *prev = nullptr;
@@ -31,4 +35,20 @@ void deleteRegistration(Registration* head, const string& id)
     }
 
     delete temp;
+}
+
+void getAllRegistration(Registration *head)
+{
+    Registration *curr = head;
+
+    while (curr != nullptr)
+    {
+        printClassSessionDetails(curr->class_session);
+        cout << getDate(curr->registration_date) << endl;
+        printAttendeeDetails(curr->attendee);
+
+        curr = curr->next;
+    }
+
+    cout << endl;
 }

@@ -14,15 +14,15 @@ bool hasRelation(Registration *registrationHead, const string &attendeeId, const
     return false;
 }
 
-void deregisterAttendee(Registration **registrationHead, Attendee *attendee, ClassSession *classSession)
+void deregisterAttendee(Registration *&registrationHead, Attendee *attendee, ClassSession *classSession)
 {
-    Registration* cur = *registrationHead;
+    Registration* cur = registrationHead;
     Registration* prev = NULL;
 
     while (cur != NULL) {
         if (cur->attendee == attendee && cur->class_session == classSession) {
             if (prev == NULL) {
-                *registrationHead = cur->next;
+                registrationHead = cur->next;
             } else {
                 prev->next = cur->next;
             }
