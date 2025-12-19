@@ -1,3 +1,0 @@
-/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles/gym-class.dir
-/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/bodybody/Documents/projects/gym-class/build/CMakeFiles/rebuild_cache.dir
