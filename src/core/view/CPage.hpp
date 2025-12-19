@@ -16,7 +16,7 @@ enum PAGE
 
 void CViewLoginPage(Attendee *head, Attendee *&currentUser);
 void CDashboardPage(ClassSession *classSessionHead, Registration *registrationHead, Attendee *attendeeHead, Attendee *currentUser);
-void CClassDetailPage(ClassSession *classSessionHead, Registration *registrationHead, string classId);
+void CClassDetailPage(ClassSession *classSessionHead, Registration *registrationHead);
 void CGetAllClassPage(ClassSession *classSession);
 void CRegisterClassSessionPage(ClassSession *classSessionHead, Registration* &registrationHead, Attendee *currentUser);
 void CDeregisterClassSessionPage(ClassSession *classSessionHead, Registration *registrationHead, Attendee *currentUser);

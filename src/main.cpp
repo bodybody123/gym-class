@@ -202,8 +202,6 @@ int main()
         cout << "Pilih: ";
         cin >> input;
 
-        string classId;
-
         switch (input)
         {
         case 1:
@@ -213,9 +211,8 @@ int main()
             CGetAllClassPage(classSessionHead);
             break;
         case 3:
-            cout << "Pilih ID kelas: ";
-            cin >> classId;
-            CClassDetailPage(classSessionHead, registrationHead, classId);
+
+            CClassDetailPage(classSessionHead, registrationHead);
             break;
         case 4:
             CRegisterClassSessionPage(classSessionHead, registrationHead, currentUser);
