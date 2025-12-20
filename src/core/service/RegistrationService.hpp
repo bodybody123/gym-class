@@ -12,5 +12,6 @@ bool hasRelation(
 );
 
 void deregisterAttendee(Registration *&registrationHead, Attendee *attendee, ClassSession *classSession);
+void deleteRegistrationsByAttendee(Registration*& head, Attendee* attendee);\
 
 #endif

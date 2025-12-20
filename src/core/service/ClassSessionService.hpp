@@ -11,5 +11,7 @@ void countClassSessionAttendees(ClassSession *classSessionHead, Registration *re
 int countClassSessionsWithNoAttendees(ClassSession *classSessionHead, Registration *registrationHead);
 void getAllAttendingClass(Registration *registrationHead, Attendee *attendee);
 void getAllAvailableToAttendClass(ClassSession *classSessionHead, Registration *registrationHead, Attendee *attendee);
+void createNewClassSession(ClassSession *&classSessionHead);
+void updateNewClassSession(ClassSession *&classSessionHead);
 
 #endif

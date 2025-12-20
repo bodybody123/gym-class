@@ -72,21 +72,6 @@ ClassSession *getClassSessionById(ClassSession *head, string id)
     return nullptr;
 }
 
-void updateClassSessionData(ClassSession *head, const string &id, ClassSession updatedData)
-{
-    ClassSession* classSession = getClassSessionById(head, id);
-    if (classSession == nullptr) {
-        return;
-    }
-
-    classSession->name = updatedData.name;
-    classSession->description = updatedData.description;
-    classSession->schedule = updatedData.schedule;
-    classSession->capacity = updatedData.capacity;
-    classSession->fee = updatedData.fee;
-    classSession->coach = updatedData.coach;
-}
-
 void showAllClassSessions(ClassSession* head) {
     ClassSession* current = head;
     while (current != nullptr) {

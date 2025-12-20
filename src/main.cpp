@@ -176,16 +176,6 @@ int main()
 
     init(classSessionHead, registrationHead, attendeeHead);
 
-    Date d = getCurrentDateTime();
-
-    std::cout << "RAW VALUES\n";
-    std::cout << d.day << "\n";
-    std::cout << d.month << "\n";
-    std::cout << d.year << "\n";
-    std::cout << d.hour << "\n";
-    std::cout << d.minute << "\n";
-    std::cout << d.second << "\n";
-
     while (true)
     {
         int input;
@@ -220,26 +210,44 @@ int main()
             continue;
         }
 
-        // if (currentUser->data.name == "Admin")
-        // {
-        //     cout << "DEBUG: ADMIN PANEL";
-        //     cout << "1. Dashboard" << endl;
-        //     cout << "2. Search" << endl;
-        //     cout << "99. Exit" << endl;
-        //     cout << "Pilih: ";
-        //     cin >> input;
-        //     switch (input)
-        //     {
-        //     case 1:
-        //         /* code */
-        //         break;
+        if (currentUser->data.name == "Admin")
+        {
+            cout << "1. Kelola kelas" << endl;
+            cout << "2. Kelola pengguna" << endl;
+            cout << "3. Kelola registrasi" << endl;
+            cout << "4. Reports dan Analytics" << endl;
+            cout << "98. Logout" << endl;
+            cout << "99. Exit" << endl;
+            cout << "Pilih: ";
+            cin >> input;
+            switch (input)
+            {
+            case 1:
+                CManageClassPage(classSessionHead, registrationHead);
+                break;
+            case 2:
+                CManageAttendeePage(attendeeHead, registrationHead, classSessionHead);
+                break;
+            case 3:
+                CManageRegistrationPage(classSessionHead, registrationHead, attendeeHead);
+                break;
+            case 4:
+                CAdminReportsPage(classSessionHead, registrationHead, attendeeHead);
+                break;
+            case 98:
+                currentUser = nullptr;
+                break;
+            case 99:
+                freeMemory(attendeeHead, classSessionHead, registrationHead);
+                return 0;
+                break;
+            default:
+                cout << "Pilihan tidak ditemukan" << endl;
+                break;
+            }
 
-        //     default:
-        //         break;
-        //     }
-
-        //     continue;
-        // }
+            continue;
+        }
 
         cout << "1. Dashboard" << endl;
         cout << "2. Lihat semua kelas" << endl;
@@ -276,6 +284,7 @@ int main()
             return 0;
             break;
         default:
+            cout << "Pilihan tidak ditemukan" << endl;
             break;
         }
     }

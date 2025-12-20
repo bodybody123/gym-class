@@ -8,7 +8,7 @@ void insertAttendee(Attendee* &head, Attendee *attendee) {
     head = attendee;
 }
 
-void deleteAttendee(Attendee* head, const string& id) {
+void deleteAttendee(Attendee* &head, const string& id) {
     Attendee* temp = head;
     Attendee* prev = nullptr;
 

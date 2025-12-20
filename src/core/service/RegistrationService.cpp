@@ -33,3 +33,31 @@ void deregisterAttendee(Registration *&registrationHead, Attendee *attendee, Cla
         cur = cur->next;
     }
 }
+
+void deleteRegistrationsByAttendee(
+    Registration*& head,
+    Attendee* attendee)
+{
+    Registration* curr = head;
+    Registration* prev = nullptr;
+
+    while (curr)
+    {
+        if (curr->attendee == attendee)
+        {
+            Registration* toDelete = curr;
+            if (prev)
+                prev->next = curr->next;
+            else
+                head = curr->next;
+
+            curr = curr->next;
+            delete toDelete;
+        }
+        else
+        {
+            prev = curr;
+            curr = curr->next;
+        }
+    }
+}

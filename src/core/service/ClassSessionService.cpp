@@ -1,22 +1,25 @@
 #include <iostream>
+#include "../utils/GenerateId.hpp"
+#include "../utils/DateUtils.hpp"
 #include "../Lists/ClassSessionList.hpp"
 #include "../models/Registration.hpp"
 #include "../Lists/RegistrationList.hpp"
 #include "ClassSessionService.hpp"
 #include "../models/Date.hpp"
 #include "RegistrationService.hpp"
- 
+
 void attendingClassSession(
-    ClassSession *classSession, 
-    Registration* &registrationHead, 
-    Attendee *attendee
-) {
-    if (hasRelation(registrationHead, attendee->data.id, classSession->id)) {
+    ClassSession *classSession,
+    Registration *&registrationHead,
+    Attendee *attendee)
+{
+    if (hasRelation(registrationHead, attendee->data.id, classSession->id))
+    {
         cout << "Kelas sudah terdaftar sebelumnya" << endl;
         return;
     }
 
-    Registration* data = new Registration();
+    Registration *data = new Registration();
     data->registration_date = getCurrentDateTime();
     data->attendee = attendee;
     data->class_session = classSession;
@@ -27,65 +30,53 @@ void attendingClassSession(
 }
 
 void getAllClassAndAttendees(
-    ClassSession *classSessionHead, 
-    Registration *registrationHead
-) {
-    // ClassSessionAttendees classSessionAttendeesHead = ClassSessionAttendees();
+    ClassSession *classSessionHead,
+    Registration *registrationHead)
+{
     ClassSession *currentClassSession = classSessionHead;
-    // ClassSessionAttendees *currentClassSessionAttendees = &classSessionAttendeesHead;
 
-    if (classSessionHead == nullptr) {
+    if (classSessionHead == nullptr)
+    {
         cout << "No class sessions available." << endl;
         return;
     }
 
     while (currentClassSession != nullptr)
-    {   
+    {
         cout << "Class Session: " << currentClassSession->name << " (ID: " << currentClassSession->id << ")" << endl;
-        // currentClassSessionAttendees->class_session = currentClassSession;
-        // currentClassSessionAttendees->attendee_count = 0;
 
         Registration *currentRegistration = registrationHead;
-
-        // if (currentRegistration->class_session->id != currentClassSession->id) {   
-        //     currentClassSessionAttendees->attendees = currentRegistration->attendee;
-        // }
 
         cout << "Attendees:" << endl;
         while (currentRegistration != nullptr)
         {
             if (currentRegistration->class_session == currentClassSession)
             {
-                cout << "- " << currentRegistration->attendee->data.name << " (Registration date: " 
-                << getDate(currentRegistration->registration_date) << ")" << endl;
-                
-                // currentClassSessionAttendees->attendee_count += 1;
-                
+                cout << "- " << currentRegistration->attendee->data.name << " (Registration date: "
+                     << getDate(currentRegistration->registration_date) << ")" << endl;
+
             }
-            // currentClassSessionAttendees->attendees = currentRegistration->attendee->next;
             currentRegistration = currentRegistration->next;
         }
 
-        // currentClassSessionAttendees = currentClassSessionAttendees->next;
         currentClassSession = currentClassSession->next;
     }
-    
-    // return classSessionAttendeesHead;
 }
 
 void countClassSessionAttendees(
-    ClassSession *classSessionHead, 
-    Registration *registrationHead
-) {
+    ClassSession *classSessionHead,
+    Registration *registrationHead)
+{
     ClassSession *currentClassSession = classSessionHead;
 
-    if (classSessionHead == nullptr) {
+    if (classSessionHead == nullptr)
+    {
         cout << "No class sessions available." << endl;
         return;
     }
 
     while (currentClassSession != nullptr)
-    {   
+    {
         int count = 0;
         Registration *currentRegistration = registrationHead;
 
@@ -98,7 +89,7 @@ void countClassSessionAttendees(
             currentRegistration = currentRegistration->next;
         }
 
-        cout << "Class Session: " << currentClassSession->name 
+        cout << "Class Session: " << currentClassSession->name
              << " has " << count << " attendees registered." << endl;
 
         currentClassSession = currentClassSession->next;
@@ -107,13 +98,13 @@ void countClassSessionAttendees(
 
 int countClassSessionsWithNoAttendees(ClassSession *classSessionHead, Registration *registrationHead)
 {
-    ClassSession* currentClassSession = classSessionHead;
+    ClassSession *currentClassSession = classSessionHead;
     int noAttendeeCount = 0;
 
     while (currentClassSession != nullptr)
     {
         bool hasAttendees = false;
-        Registration* currentRegistration = registrationHead;
+        Registration *currentRegistration = registrationHead;
 
         while (currentRegistration != nullptr)
         {
@@ -147,7 +138,7 @@ void getAllAttendingClass(Registration *registrationHead, Attendee *attendee)
             cout << "Class name: " + currentRegistration->class_session->name << endl;
             cout << "registered date: " + getDateTime(currentRegistration->registration_date) << endl;
         }
-        
+
         currentRegistration = currentRegistration->next;
     }
 }
@@ -157,19 +148,68 @@ void getAllAvailableToAttendClass(ClassSession *classSessionHead, Registration *
     ClassSession *currentClassSession = classSessionHead;
     while (currentClassSession != nullptr)
     {
-        if (!hasRelation(registrationHead, attendee->data.id, currentClassSession->id)) {
+        if (!hasRelation(registrationHead, attendee->data.id, currentClassSession->id))
+        {
             printClassSessionDetails(currentClassSession);
         }
         currentClassSession = currentClassSession->next;
     }
-    
+}
+
+void createNewClassSession(ClassSession *&classSessionHead)
+{
+    ClassSession *classSession;
+    classSession->id = generateId("CLASSID_");
+    cout << "Name: ";
+    cin.ignore();
+    getline(cin, classSession->name);
+    cout << "Description: ";
+    getline(cin, classSession->description);
+    cout << "Coach: ";
+    getline(cin, classSession->coach);
+    cout << "Capacity: ";
+    cin >> classSession->capacity;
+    cout << "Fee: ";
+    cin >> classSession->fee;
+
+    classSession->schedule = getValidDateInput();
+
+    insertClassSessionData(classSessionHead, classSession);
+}
+
+void updateNewClassSession(ClassSession *&classSessionHead)
+{
+    string id;
+    cout << "Masukkan ID kelas yang ingin diubah: ";
+    cin >> id;
+
+    ClassSession* classSession = getClassSessionById(classSessionHead, id);
+    if (classSession == nullptr)
+    {
+        cout << "Kelas tidak ditemukan.\n";
+        return;
+    }
+
+    cout << "Name: ";
+    cin.ignore();
+    getline(cin, classSession->name);
+    cout << "Description: ";
+    getline(cin, classSession->description);
+    cout << "Coach: ";
+    getline(cin, classSession->coach);
+    cout << "Capacity: ";
+    cin >> classSession->capacity;
+    cout << "Fee: ";
+    cin >> classSession->fee;
+
+    classSession->schedule = getValidDateInput();
 }
 
 void getClassSessionDetailById(
-    ClassSession *classSessionHead, 
-    Registration *registrationHead, 
-    const string& id
-) {
+    ClassSession *classSessionHead,
+    Registration *registrationHead,
+    const string &id)
+{
     ClassSession *classSession = getClassSessionById(classSessionHead, id);
 
     if (classSession == nullptr)
@@ -177,14 +217,14 @@ void getClassSessionDetailById(
         return;
     }
 
-    printClassSessionDetails(classSession);   
+    printClassSessionDetails(classSession);
 
     Registration *currentRegistration = registrationHead;
     while (currentRegistration != nullptr)
     {
         if (currentRegistration->class_session == classSession)
         {
-            cout << "- Attendee: " << currentRegistration->attendee->data.name 
+            cout << "- Attendee: " << currentRegistration->attendee->data.name
                  << " (Registration date: " << getDate(currentRegistration->registration_date) << ")" << endl;
         }
         currentRegistration = currentRegistration->next;
@@ -192,15 +232,17 @@ void getClassSessionDetailById(
 }
 
 void showAttendeesFromClass(
-    Registration* registrationHead,
-    const std::string& classSessionId
-) {
-    if (classSessionId.empty()) {
+    Registration *registrationHead,
+    const std::string &classSessionId)
+{
+    if (classSessionId.empty())
+    {
         std::cout << "Class session ID cannot be empty.\n";
         return;
     }
 
-    if (registrationHead == nullptr) {
+    if (registrationHead == nullptr)
+    {
         std::cout << "No registration data available.\n";
         return;
     }
@@ -209,12 +251,14 @@ void showAttendeesFromClass(
               << classSessionId << " ===\n";
 
     int count = 0;
-    Registration* current = registrationHead;
+    Registration *current = registrationHead;
 
-    while (current != nullptr) {
+    while (current != nullptr)
+    {
         if (current->class_session != nullptr &&
             current->attendee != nullptr &&
-            current->class_session->id == classSessionId) {
+            current->class_session->id == classSessionId)
+        {
 
             std::cout << ++count << ". "
                       << current->attendee->data.name
@@ -226,9 +270,12 @@ void showAttendeesFromClass(
         current = current->next;
     }
 
-    if (count == 0) {
+    if (count == 0)
+    {
         std::cout << "No attendees registered for this class.\n";
-    } else {
+    }
+    else
+    {
         std::cout << "Total attendees: " << count << "\n";
     }
 
