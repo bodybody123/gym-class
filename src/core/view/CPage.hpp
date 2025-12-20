@@ -14,6 +14,7 @@ enum PAGE
     DETAIL
 };
 
+void CViewRegisterPage(Attendee *&head);
 void CViewLoginPage(Attendee *head, Attendee *&currentUser);
 void CDashboardPage(ClassSession *classSessionHead, Registration *registrationHead, Attendee *attendeeHead, Attendee *currentUser);
 void CClassDetailPage(ClassSession *classSessionHead, Registration *registrationHead);

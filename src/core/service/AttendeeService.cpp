@@ -7,10 +7,15 @@
 using namespace std;
 
 void registerAttendee(
-    Attendee *attendeeHead, 
+    Attendee *&attendeeHead, 
     Attendee *newAttendee
 ) {
-    // ? Check if name exist
+    Attendee* attendee = getAttendeeByUsername(attendeeHead, newAttendee->data.name);
+
+    if (attendee != nullptr) {
+        cout << "Username sudah diambil" << endl;
+        return; 
+    }
 
     insertAttendee(attendeeHead, newAttendee);
 }

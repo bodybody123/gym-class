@@ -130,6 +130,43 @@ void init(ClassSession *&classSessionHead,
     insertRegistration(registrationHead, r5);
 }
 
+void freeAttendeeList(Attendee *&head)
+{
+    while (head != nullptr)
+    {
+        Attendee *temp = head;
+        head = head->next;
+        delete temp;
+    }
+}
+
+void freeClassSessionList(ClassSession *&head)
+{
+    while (head != nullptr)
+    {
+        ClassSession *temp = head;
+        head = head->next;
+        delete temp;
+    }
+}
+
+void freeRegistrationList(Registration *&head)
+{
+    while (head != nullptr)
+    {
+        Registration *temp = head;
+        head = head->next;
+        delete temp;
+    }
+}
+
+void freeMemory(Attendee *&attendeeHead, ClassSession *&classSessionHead, Registration *&registrationHead)
+{
+    freeRegistrationList(registrationHead);
+    freeClassSessionList(classSessionHead);
+    freeAttendeeList(attendeeHead);
+}
+
 int main()
 {
     ClassSession *classSessionHead = nullptr;
@@ -138,6 +175,16 @@ int main()
     Attendee *currentUser = nullptr;
 
     init(classSessionHead, registrationHead, attendeeHead);
+
+    Date d = getCurrentDateTime();
+
+    std::cout << "RAW VALUES\n";
+    std::cout << d.day << "\n";
+    std::cout << d.month << "\n";
+    std::cout << d.year << "\n";
+    std::cout << d.hour << "\n";
+    std::cout << d.minute << "\n";
+    std::cout << d.second << "\n";
 
     while (true)
     {
@@ -159,8 +206,10 @@ int main()
                 cout << "Halo, " + currentUser->data.name << endl;
                 break;
             case 2:
+                CViewRegisterPage(attendeeHead);
                 break;
             case 99:
+                freeMemory(attendeeHead, classSessionHead, registrationHead);
                 return 0;
                 break;
             default:
@@ -211,7 +260,6 @@ int main()
             CGetAllClassPage(classSessionHead);
             break;
         case 3:
-
             CClassDetailPage(classSessionHead, registrationHead);
             break;
         case 4:
@@ -224,6 +272,7 @@ int main()
             currentUser = nullptr;
             break;
         case 99:
+            freeMemory(attendeeHead, classSessionHead, registrationHead);
             return 0;
             break;
         default:

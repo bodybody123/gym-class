@@ -22,7 +22,6 @@ void CDeregisterClassSessionPage(ClassSession *classSessionHead, Registration *r
         return;
     }
     
-
     deregisterAttendee(registrationHead, currentUser, classSession);
     cout << "Kelas berhasil dibatalkan";
 }
